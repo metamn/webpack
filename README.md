@@ -3,6 +3,12 @@
 - The goal is to have a way to create and use Javascript modules with Gulp
 - It turns out Webpack / CommonJS is ok for that, but for that only. Using the full power of Webpack is out of the goal.
 
+### Important
+
+- Webpack is a *module bundler* not a *script loader* which means it bundles modules from the *local filesystem*, and, does not handling external requires
+like Typekit or  any third party scripts.
+- https://github.com/webpack/webpack/issues/150
+
 ### Basics
 
 - http://webpack.github.io/docs/tutorials/getting-started/
