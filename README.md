@@ -5,7 +5,7 @@
 
 ### Important
 
-- Webpack is a *module bundler* not a *script loader* which means it bundles modules from the *local filesystem*, and, does not handling external requires
+- Webpack is a *module bundler* not a *script loader* which means it bundles modules from the *local filesystem*, and, does not handles external requires
 like Typekit or  any third party scripts.
 - https://github.com/webpack/webpack/issues/150
 
